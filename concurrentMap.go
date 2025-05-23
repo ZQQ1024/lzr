@@ -26,7 +26,7 @@ import (
 	//"os"
 )
 
-var SHARD_COUNT = 4096
+var SHARD_COUNT = 1024
 
 // A "thread" safe map of type string:Anything.
 // To avoid lock bottlenecks this map is dived to several (SHARD_COUNT) map shards.
